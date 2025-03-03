@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Titulo</h1>
-    <a href="https://docs.google.com/spreadsheets/d/1adeF1tlWyjvYc8XLT1mHiLRZBs3g5_iPqmMpNtL4tT8/edit?usp=sharing">Enlace</a>
+
+    <div class="container">
+        <h1>Listado de Productos</h1>
+        <a class="button" href="https://docs.google.com/spreadsheets/d/1adeF1tlWyjvYc8XLT1mHiLRZBs3g5_iPqmMpNtL4tT8/edit?usp=sharing" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Excel Icon">
+            Ver Documento
+        </a>
+    </div>
+
 </body>
 </html>
